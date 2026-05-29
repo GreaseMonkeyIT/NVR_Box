@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pkl
+*.log
+venv/
+*.sqlite
+
+# model weights — large binary files
+yolov8n.pt
+yolov8n.onnx
+yolov8n.onnx.data
+yolov8n_openvino_model/
+
+# live config — contains real credentials and zone data
+config/cameras.yaml
+
+# recorded clips
+clips/
